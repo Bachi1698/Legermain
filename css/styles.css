@@ -1,0 +1,19 @@
+body{
+    background-color: #f5f4f7;
+}
+#navbarResponsive  navbar-nav li a,
+#navbarResponsive navbar-nav nav-item nav-link {
+    color: #495057 !important; 
+}
+
+.navbar-dark .navbar-brand {
+    color:#495057;
+}
+
+.fixed-top {
+    background: linear-gradient(to left,#DEB887, #f8f9fa);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#495057;
+}
