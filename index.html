@@ -69,13 +69,53 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item ml-3">
-            <a class="btn pink-gradient btn-rounded btn-sm font-weight-bold" href="#" data-offset="90">Demander un devis ? </a>
+            <a class="btn pink-gradient btn-rounded btn-sm font-weight-bold" href="#" data-offset="90" data-toggle="modal" data-target="#modalContactForm">Demander un devis ? </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
+  <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body mx-3">
+          <div class="md-form mb-5">
+            <i class="fas fa-user prefix grey-text"></i>
+            <input type="text" id="form34" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="form34">Your name</label>
+          </div>
+  
+          <div class="md-form mb-5">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <input type="email" id="form29" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="form29">Your email</label>
+          </div>
+  
+          <div class="md-form mb-5">
+            <i class="fas fa-tag prefix grey-text"></i>
+            <input type="text" id="form32" class="form-control validate">
+            <label data-error="wrong" data-success="right" for="form32">Subject</label>
+          </div>
+  
+          <div class="md-form">
+            <i class="fas fa-pencil prefix grey-text"></i>
+            <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+            <label data-error="wrong" data-success="right" for="form8">Your message</label>
+          </div>
+  
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -251,6 +291,7 @@
   <footer class="page-footer stylish-color-dark text-center text-md-left mt-4 pt-4">
 
     <!-- Footer Links -->
+    
     <div class="container">
 
       <!-- Footer links -->
@@ -258,7 +299,7 @@
 
         <!-- First column -->
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">About me</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold">A Propos</h6>
           <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
             consectetur adipisicing elit.</p>
         </div>
@@ -268,41 +309,22 @@
 
         <!-- Second column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Category</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold">Categorie</h6>
           <p>
-            <a href="#!">Lifestyle</a>
+            <a href="#!">Couvertures</a>
           </p>
           <p>
-            <a href="#!">Travel</a>
+            <a href="#!">Charpentes</a>
           </p>
           <p>
-            <a href="#!">Work</a>
-          </p>
-          <p>
-            <a href="#!">Fashion</a>
+            <a href="#!">Ouvrages</a>
           </p>
         </div>
         <!-- Second column -->
 
         <hr class="w-100 clearfix d-md-none">
 
-        <!-- Third column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-          <p>
-            <a href="#!">Collaboriation</a>
-          </p>
-          <p>
-            <a href="#!">Media about me</a>
-          </p>
-          <p>
-            <a href="#!">Newsletter</a>
-          </p>
-          <p>
-            <a href="#!">Help</a>
-          </p>
-        </div>
-        <!-- Third column -->
+    
 
         <hr class="w-100 clearfix d-md-none">
 
