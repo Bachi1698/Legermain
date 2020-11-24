@@ -1220,7 +1220,7 @@
   background-color: #4b515d !important; }
 
 .stylish-color-dark {
-  background-color: #3e4551 !important; }
+  background-color: #8c5b3e !important; }
 
 .unique-color {
   background-color: #3f729b !important; }
@@ -7969,7 +7969,7 @@ h6 {
   line-height: 1.7; }
 
 .title {
-  color: #112f6b !important; }
+  color: #e7ded8 !important; }
 
 .spacing {
   letter-spacing: 1px; }
@@ -7982,7 +7982,7 @@ h6 {
   line-height: 4rem; }
 
 .orange-text {
-  color: #fb5364 !important; }
+  color: #62B1B1 !important; }
 
 .blue-text {
   color: #557ff9 !important; }
@@ -8003,7 +8003,7 @@ h6 {
   color: #fb5364 !important; }
 
 .btn.pink-gradient {
-  background: linear-gradient(40deg, #FF5858, #ee4392);
+  background: linear-gradient(40deg, #8c5b3e, #62b1b1);
   color: #fff !important; }
   .btn.pink-gradient:focus, .btn.pink-gradient:active {
     background: linear-gradient(40deg, #FF5858, #ee4392); }
