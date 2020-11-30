@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  
+    <title>ABC Legermain</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- <link href="css/styles.css" rel="stylesheet"> -->
+    <style>
+    html,
+    body,
+    header,
+    .jarallax {
+      height: 700px;
+      min-height: 700px;
+    }
+    @media (max-width: 450px) {
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 700px;
+        min-height: 700px;
+      }
+    }
+    @media (min-width: 451px) and (max-width: 740px) {
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 500px;
+        min-height: 500px;
+      }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .jarallax {
+        height: 550px;
+        min-height: 550px;
+      }
+    }
+    </style>
+  </head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar white">
+    <div class="container">
+      <h5 class="title font-weight-bold wow fadeIn" data-wow-delay="0.2s" style="font-weight: bold; font-family: tahoma;"> <a class="navbar-brand" href="index.html"><img src="images/logo/logo-maitreartisan.png" width="60px"></a> <strong></strong>ABC <span style="color:#ff9800;">Legermain</span></strong> </a></h5>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="list-unstyled navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link title" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link title" href="about.html">A Propos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle title" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"> Realisation </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="realisation.html">Charpentes </a>
+              <a class="dropdown-item" href="">Couvertures</a>
+              <a class="dropdown-item" href="">Ouvrages</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link title" href="offres.html">Offres de stages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link title" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item ml-3">
+            <a class="btn pink-gradient btn-rounded btn-sm btn-warning font-weight-bold" href="#" data-offset="90" data-toggle="modal" data-target="#modalContactForm">Demander un devis ? </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">DEMANDER UN DEVIS </h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form34" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form34">Nom</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="form29" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form29">Your email</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-tag prefix grey-text"></i>
+          <input type="text" id="form32" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form32">Subject</label>
+        </div>
+
+        <div class="md-form">
+          <i class="fas fa-pencil prefix grey-text"></i>
+          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+          <label data-error="wrong" data-success="right" for="form8">Your message</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- endnav-->
+   <!-- Main content -->
+   <main>
+
+    <div class="container">
+
+      <section class="mt-3 mb-5 pt-5 pb-5">
+
+        <!-- Section heading -->
+        <h3 class="text-center title my-5 pt-4 pb-4 dark-grey-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+          <strong>Our projects</strong>
+        </h3>
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <!-- <div class="col-md-12 d-flex justify-content-center mb-5 pb-2">
+
+            <button type="button" class="btn btn-rounded btn-white font-weight-bold waves-effect filter"
+              data-rel="all">All</button>
+            <button type="button" class="btn btn-rounded btn-white font-weight-bold waves-effect filter"
+              data-rel="1">Branding</button>
+            <button type="button" class="btn btn-rounded btn-white font-weight-bold waves-effect filter"
+              data-rel="2">web design</button>
+
+          </div> -->
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+        <!-- Grid row -->
+        <div class="gallery" id="gallery">
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/58.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/7.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/4.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/63.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 2">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/64.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="mb-3 pics animation all 1">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/5.jpg" alt="Card image cap">
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+      </section>
+
+    </div>
+    <!-- Streak -->
+    <div class="streak streak-photo streak-md"
+      style="background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg');">
+      <div class="flex-center mask rgba-gradient">
+        <div class="container my-5">
+
+          <!-- Section heading -->
+          <h3 class="text-center pb-3 white-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+            <strong>Download our mobile app</strong>
+          </h3>
+          <h6 class="text-center white-text pb-4 font-weight-bold wow fadeIn" data-wow-delay="0.2s">Get 30 days trial
+          </h6>
+          <!-- First row -->
+          <div class="row flex-center">
+
+            <a class="btn btn-white btn-rounded btn-lg orange-text font-weight-bold ml-0 wow fadeIn"
+              data-wow-delay="0.2s">
+              <i class="fab fa-android pr-2" aria-hidden="true"></i> Play store</a>
+            <a class="btn btn-white btn-rounded btn-lg orange-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+              <i class="fab fa-apple pr-2" aria-hidden="true"></i> App store</a>
+          </div>
+          <!-- First row -->
+
+        </div>
+      </div>
+    </div>
+    <!-- Streak -->
+
+    <div class="container-fluid light-grey-background">
+      <div class="container py-4">
+
+        <!-- Section: Services -->
+        <section id="services" class="mt-3 mb-3 pb-3">
+
+          <!-- Section heading -->
+          <h3 class="text-center title my-5 pt-4 pb-5 dark-grey-text font-weight-bold wow fadeIn" data-wow-delay="0.2s">
+            <strong>General questions</strong>
+          </h3>
+
+          <!-- Grid row -->
+          <div class="row wow fadeIn" data-wow-delay="0.4s">
+
+            <!-- Grid column -->
+            <div class="col-md-4 mb-5 text-center">
+
+              <!-- Panel -->
+              <div class="text-left">
+                <p class="title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                  <i class="fas fa-square orange-text mr-2" aria-hidden="true"></i>
+                  <strong>How to create an account?</strong>
+                </p>
+                <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                  nesciunt sapiente earu
+                  proident.
+                </p>
+              </div>
+              <!-- Panel -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Second column -->
+            <div class="col-md-4 mb-5 text-center">
+
+              <!-- Panel -->
+              <div class="text-left">
+                <p class="title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                  <i class="fas fa-square orange-text mr-2" aria-hidden="true"></i>
+                  <strong>Is it mobile friendly?</strong>
+                </p>
+                <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                  nesciunt sapiente earu
+                  proident.
+                </p>
+              </div>
+              <!-- Panel -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 mb-5 text-center">
+
+              <!-- Panel -->
+              <div class="text-left">
+                <p class="title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                  <i class="fas fa-square orange-text mr-2" aria-hidden="true"></i>
+                  <strong>Is it bootstrap based?</strong>
+                </p>
+                <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                  nesciunt sapiente earu
+                  proident.
+                </p>
+              </div>
+              <!-- Panel -->
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+          <!-- Grid row -->
+          <div class="row wow fadeIn" data-wow-delay="0.4s">
+
+            <!-- Grid column -->
+            <div class="col-md-4 mb-5 text-center">
+
+              <!-- Panel -->
+              <div class="text-left">
+                <p class="title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                  <i class="fas fa-square orange-text mr-2" aria-hidden="true"></i>
+                  <strong>How to cancel a plan?</strong>
+                </p>
+                <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                  nesciunt sapiente earu
+                  proident.
+                </p>
+              </div>
+              <!-- Panel -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 mb-5 text-center">
+
+              <!-- Panel -->
+              <div class="text-left">
+                <p class="title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                  <i class="fas fa-square orange-text mr-2" aria-hidden="true"></i>
+                  <strong>How to change theme color?</strong>
+                </p>
+                <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                  nesciunt sapiente earu
+                  proident.
+                </p>
+              </div>
+              <!-- Panel -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 mb-5 text-center">
+
+              <!-- Panel -->
+              <div class="text-left">
+                <p class="title font-weight-bold dark-grey-text text-uppercase spacing mt-4 mx-4">
+                  <i class="fas fa-square orange-text mr-2" aria-hidden="true"></i>
+                  <strong>Place your question here?</strong>
+                </p>
+                <p class="grey-text font-small mx-4">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                  nesciunt sapiente earu
+                  proident.
+                </p>
+              </div>
+              <!-- Panel -->
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+        </section>
+        <!-- Section: Services -->
+
+      </div>
+    </div>
+    <!-- Second container -->
+
+  </main>
+  <!-- Main content -->
+  <!-- content realisation -->
+  <!-- /.container -->
+
+   <!-- Footer -->
+   <footer class="page-footer stylish-color-dark text-center text-md-left mt-4 pt-4">
+
+    <!-- Footer Links -->
+    
+    <div class="container">
+
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
+
+        <!-- First column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">A Propos</h6>
+          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.</p>
+        </div>
+        <!-- First column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Second column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Categorie</h6>
+          <p>
+            <a href="#!">Couvertures</a>
+          </p>
+          <p>
+            <a href="#!">Charpentes</a>
+          </p>
+          <p>
+            <a href="#!">Ouvrages</a>
+          </p>
+        </div>
+        <!-- Second column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+    
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Fourth column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p>
+            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <p>
+            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Fourth column -->
+
+      </div>
+      <!-- Footer links -->
+
+      <hr>
+
+      <div class="row py-3 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8">
+
+          <!-- Copyright -->
+          <p class="text-center text-md-left grey-text">
+            © 2020 Copyright: <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> GROUPE12.com
+            </a>
+          </p>
+          <!-- Copyright -->
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+
+          <!-- Social buttons -->
+          <div class="social-section text-center text-md-left">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item mx-0">
+                <a class="btn-floating btn-sm rgba-white-slight mr-xl-4">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-0">
+                <a class="btn-floating btn-sm rgba-white-slight mr-xl-4">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-0">
+                <a class="btn-floating btn-sm rgba-white-slight mr-xl-4">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mx-0">
+                <a class="btn-floating btn-sm rgba-white-slight mr-xl-4">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Social buttons -->
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+
+    </div>
+
+  </footer>
+  <!-- Footer -->
+  
+    <!-- /.container -->
+
+
+  <!-- Bootstrap core JavaScript -->
+   <!-- JQuery -->
+   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+   <!-- Bootstrap tooltips -->
+   <script type="text/javascript" src="js/popper.min.js"></script>
+   <!-- Bootstrap core JavaScript -->
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <!-- MDB core JavaScript -->
+   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script>
+    // Animation init
+    new WOW().init();
+
+    $(function () {
+      var selectedClass = "";
+      $(".filter").click(function () {
+        selectedClass = $(this).attr("data-rel");
+        $("#gallery").fadeTo(100, 0.1);
+        $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+        setTimeout(function () {
+          $("." + selectedClass).fadeIn().addClass('animation');
+          $("#gallery").fadeTo(300, 1);
+        }, 300);
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
