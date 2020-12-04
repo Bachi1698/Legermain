@@ -1298,14 +1298,14 @@
 a {
   cursor: pointer;
   text-decoration: none;
-  color: #007bff;
+  color: #62B1B1;
   transition: all 0.2s ease-in-out; }
   a:hover {
     text-decoration: none;
-    color: #0056b3;
+    color: #62B1B1;
     transition: all 0.2s ease-in-out; }
   a.disabled:hover, a:disabled:hover {
-    color: #007bff; }
+    color: #62B1B1; }
 
 a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: inherit;
@@ -1544,9 +1544,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.1rem; }
 
 .bq-primary {
-  border-left: 3px solid #4285f4 !important; }
+  border-left: 3px solid #62B1B1 !important; }
   .bq-primary .bq-title {
-    color: #4285f4 !important; }
+    color: 62B1B1 !important; }
 
 .bq-danger {
   border-left: 3px solid #ff3547 !important; }
@@ -1554,9 +1554,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #ff3547 !important; }
 
 .bq-warning {
-  border-left: 3px solid #ffbb33 !important; }
+  border-left: 3px solid #62B1B1 !important; }
   .bq-warning .bq-title {
-    color: #ffbb33 !important; }
+    color: #62B1B1 !important; }
 
 .bq-success {
   border-left: 3px solid #00c851 !important; }
@@ -1564,9 +1564,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #00c851 !important; }
 
 .bq-info {
-  border-left: 3px solid #33b5e5 !important; }
+  border-left: 3px solid #62B1B1 !important; }
   .bq-info .bq-title {
-    color: #33b5e5 !important; }
+    color: #62B1B1 !important; }
 
 .h1-responsive {
   font-size: 150%; }
@@ -7991,8 +7991,8 @@ h6 {
   box-shadow: 0 8px 19px rgba(91, 154, 251, 0.41);
   width: 100px;
   height: 100px;
-  line-height: 1.4;
-  padding: 1.8rem;
+  /* line-height: 1.4; */
+  padding: 0.8rem;
   font-size: 2rem;
   border-radius: 50%;
   background: #fff; }
@@ -8006,7 +8006,7 @@ h6 {
   background: linear-gradient(40deg, #8c5b3e, #62b1b1);
   color: #fff !important; }
   .btn.pink-gradient:focus, .btn.pink-gradient:active {
-    background: linear-gradient(40deg, #FF5858, #ee4392); }
+    background: linear-gradient(40deg, #8c5b3e, #62b1b1); }
 
 .btn-floating {
   box-shadow: 0 5px 11px 0 rgba(74, 124, 255, 0.24), 0 4px 15px 0 rgba(65, 97, 198, 0.15); }

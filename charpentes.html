@@ -47,12 +47,6 @@
                       <strong>CHARPENTES</strong>
                     </h1>
                   </li>
-                  <li>
-                    <h5 class="white-text description mb-5 wow fadeIn" data-wow-delay="0.4s">Lorem ipsum dolor sit amet,
-                      consectetur adipisicing elit. Rem repellendus quasi fuga
-                      nesciunt dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi
-                      ea dolor molestiae iste.
-                    </h5>
                   </li>
                 </ul>
               </div>
@@ -78,7 +72,7 @@
             <a class="nav-link title" href="index.html">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link title" href="about.html">A Propos</a>
+            <a class="nav-link title" href="about.html">A propos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link title" href="#">|</a>
@@ -92,15 +86,6 @@
           <li class="nav-item">
             <a class="nav-link title" href="ouvrages.html">Ouvrages</a>
           </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle title" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false"> Realisation </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="charpentes.html">Charpentes </a>
-              <a class="dropdown-item" href="couvertures.html">Couvertures</a>
-              <a class="dropdown-item" href="ouvrages.html">Ouvrages</a>
-            </div>
-          </li> -->
           <li class="nav-item">
             <a class="nav-link title" href="#">|</a>
           </li>
@@ -122,39 +107,80 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">DEMANDER UN DEVIS </h4>
+        <center><h4 class="my-4 ml-5" style="font-weight: bold; font-family: tahoma;"> DEMANDER<span style="color:#a87e56;"> UN DEVIS</span> </h4></center>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body mx-3">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Civilité</label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>Choisir...</option>
+            <option value="1">Monsieur</option>
+            <option value="2">Madame</option>
+          </select>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">Charpentes</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Couvertures</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Ouvrages</label>
+        </div>
         <div class="md-form mb-5">
           <i class="fas fa-user prefix grey-text"></i>
           <input type="text" id="form34" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form34">Your name</label>
+          <label data-error="wrong" data-success="right" for="form34">Nom</label>
+        </div>
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form34" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form34">Prenom</label>
         </div>
 
         <div class="md-form mb-5">
           <i class="fas fa-envelope prefix grey-text"></i>
           <input type="email" id="form29" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form29">Your email</label>
+          <label data-error="wrong" data-success="right" for="form29">Email</label>
         </div>
 
         <div class="md-form mb-5">
           <i class="fas fa-tag prefix grey-text"></i>
           <input type="text" id="form32" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="form32">Subject</label>
+          <label data-error="wrong" data-success="right" for="form32">Adresse</label>
         </div>
-
+        <div class="md-form mb-5">
+          <i class="fas fa-city prefix grey-text"></i>
+          <input type="text" id="form34" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form34">Ville</label>
+        </div>
+        <div class="md-form mb-5">
+          <i class="fas fa-map-pin prefix grey-text"></i>
+          <input type="text" id="form34" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form34">Code Postal</label>
+        </div>
+        <div class="md-form mb-5">
+          <i class="fas fa-phone prefix grey-text"></i>
+          <input type="text" id="form34" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form34">Tel</label>
+        </div>
         <div class="md-form">
           <i class="fas fa-pencil prefix grey-text"></i>
           <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-          <label data-error="wrong" data-success="right" for="form8">Your message</label>
+          <label data-error="wrong" data-success="right" for="form8">Votre message</label>
         </div>
 
       </div>
       <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+        <a class="btn pink-gradient btn-rounded">Envoyer</a>
       </div>
     </div>
   </div>
@@ -164,35 +190,53 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-5 mb-3">
-      <small></small>
-    </h1>
-
+    
     
  <!-- Contact Form -->
     
   <!-- Main Layout -->
   <main>
   
-  <section class="mt-3 mb-5 pt-5 pb-5">
+  <section class="mb-5 pb-5">
+    <div class="container">
+
+      <!-- Section: About 1 -->
+      <section id="about" class="mt-5 mb-5 py-3 wow fadeIn" data-wow-delay="0.2s">
+        
+
+        <!-- Grid row -->
+        <div class="row pt-2 ">
+
+          <!-- Grid column -->
+          <div class="col-lg-12 ml-auto col-md-12 wow fadeIn" data-wow-delay="0.4s">
+
+            <!-- Description -->
+            <center> <h2 class="my-4" style="font-weight: bold; font-family: tahoma;"><span style="color:#a87e56;"> Charpentres</span> </h2></center>
+           
+
+            <!-- Description -->
+            <p align="justify" class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi
+              soluta ratione quisquam, dicta
+              ab cupiditate iure eaque? Repellendus voluptatum, magni impedit delectus, beatae maxime temporibus
+              maiores quibusdam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi
+              soluta ratione quisquam, dicta
+              ab cupiditate iure eaque? Repellendus voluptatum, magni impedit delectus, beatae maxime temporibus
+              maiores quibusdam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi
+              soluta ratione quisquam, dicta
+              ab cupiditate iure eaque? Repellendus voluptatum, magni impedit delectus, beatae maxime temporibus
+              maiores quibusdam.</p>
+              
+          </div>
+
+          </div>
+          <!-- Grid column -->
+
+    </div>
 
     <!-- Section heading -->
 
     <!-- Grid row -->
     <div class="row">
-
-      <!-- Grid column -->
-      <!-- <div class="col-md-12 d-flex justify-content-center mb-5 pb-2">
-
-        <button type="button" class="btn btn-rounded btn-white font-weight-bold waves-effect filter"
-          data-rel="all">All</button>
-        <button type="button" class="btn btn-rounded btn-white font-weight-bold waves-effect filter"
-          data-rel="1">Branding</button>
-        <button type="button" class="btn btn-rounded btn-white font-weight-bold waves-effect filter"
-          data-rel="2">web design</button>
-
-      </div> -->
-      <!-- Grid column -->
 
     </div>
     <!-- Grid row -->
@@ -256,14 +300,51 @@
     <div class="container">
 
       <!-- Footer links -->
-      <div class="row text-center text-md-left mt-3 pb-3">
+      <div class="row text-center text-md-left mt-3 pb-3 title">
 
         <!-- First column -->
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
           <h6 class="text-uppercase mb-4 font-weight-bold">A Propos</h6>
           <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
             consectetur adipisicing elit.</p>
+            <div class="row wow fadeIn" data-wow-delay="0.2s">
+
+              <!-- Grid column -->
+              <div class="col-lg-3 text-center mt-5">
+                <div class="icon-area">
+                  <div class="circle-icon">
+                    <i><img src="images/Logos/logo-maitreartisan.png" style="width: 39px;"></i>
+                  </div>
+                  <br>
+                </div>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-lg-3 text-center  mt-5">
+                <div class="icon-area">
+                  <div class="circle-icon">
+                    <i><img src="images/Logos/fondation-du-patrimoine.jpg" style="width: 39px;"></i>
+                    
+                  </div>
+                  <br>
+                </div>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-lg-3 text-center mb-2  mt-5">
+                <div class="icon-area">
+                  <div class="circle-icon">
+                    <i><img src="images/Logos/logo_qualibat.png" style="width: 39px;"></i>
+                  </div>
+                  <br>
+                  
+                  </div>
+                </div>
+              </div>
         </div>
+        
         <!-- First column -->
 
         <hr class="w-100 clearfix d-md-none">
@@ -272,13 +353,13 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
           <h6 class="text-uppercase mb-4 font-weight-bold">Categorie</h6>
           <p>
-            <a href="#!">Couvertures</a>
+            <a href="realisation.html">Couvertures</a>
           </p>
           <p>
-            <a href="#!">Charpentes</a>
+            <a href="realisation.html">Charpentes</a>
           </p>
           <p>
-            <a href="#!">Ouvrages</a>
+            <a href="realisation.html">Ouvrages</a>
           </p>
         </div>
         <!-- Second column -->
@@ -304,6 +385,7 @@
         <!-- Fourth column -->
 
       </div>
+      
       <!-- Footer links -->
 
       <hr>
